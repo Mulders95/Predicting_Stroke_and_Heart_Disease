@@ -4,7 +4,7 @@ Data Science Institute - Cohort 5 - Team 1 Project
 ## Members
 * Marta Zaiats ([mprezlyata](https://github.com/mprezlyata))
 * Ranveer Kaur ([ranvikhalar](https://github.com/ranvikhalar))
-* Vikram Katju ([vikramkatju])(https://github.com/vikramkatju))
+* Vikram Katju ([vikramkatju](https://github.com/vikramkatju))
 * Poulami Dey ([poulami249](https://github.com/poulami249))
 * Lauren Mulders ([Mulders95](https://github.com/Mulders95))
 
@@ -13,7 +13,8 @@ Regression: What relevant predictors predict the occurence of stroke, hypertensi
 
 ## Buisness Case
 
-## Project Overview Index
+## Project Overview
+Table of contents goes here...
 
 ### Requirements
 
