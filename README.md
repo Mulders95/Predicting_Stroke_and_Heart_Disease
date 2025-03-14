@@ -20,7 +20,14 @@ This project aims to identify the key predictors that contribute to the occurren
 
 This project uses the following Python libraries:
 
-*Insert Libraries*
+| **Library**          | **Use**                                    |
+|----------------------|--------------------------------------------|
+| `pandas`             | Data manipulation and analysis             |
+| `numpy`              | Numerical computations                     |
+| `seaborn`            | Statistical data visualization             |
+| `plotly`             | Interactive visualizations                 |
+| `scikit-learn`       | Machine learning models and evaluation     |
+| `imbalanced-learn`   | Handling imbalanced datasets (e.g., SMOTE) |
 
 ## Data Overview
 | **Column Name**        | **Description**                                                                                                               | **Datatype**   |
