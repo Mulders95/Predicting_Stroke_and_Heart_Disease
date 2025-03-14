@@ -30,6 +30,9 @@ This project uses the following Python libraries:
 | `imbalanced-learn`   | Handling imbalanced datasets (e.g., SMOTE) |
 
 ## Data Overview
+
+**Dataset Source**: [Stroke Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+
 | **Column Name**        | **Description**                                                                                                               | **Datatype**   |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|----------------|
 | `id`                   | A unique identifier of each record.                                                                                           | `int64`        |
