@@ -14,7 +14,7 @@ Regression: What relevant predictors predict the occurence of stroke, hypertensi
 ## Buisness Case
 
 ## Project Overview
-Table of contents goes here...
+This project aims to identify the key predictors that contribute to the occurrence of stroke, hypertension, and heart disease by leveraging data science techniques, particularly data visualization and machine learning models. Using this knowledge, our goal is to develop a predictive model that can predict whether a patient is likely to get stroke, hyper tension and heart disease based on the input parameters like gender, age, avg_glucose_level, bmi, ever_married, smoking status etc., which could assist healthcare providers in identifying individuals at high risk and implementing preventive measures effectively.
 
 ### Requirements
 
