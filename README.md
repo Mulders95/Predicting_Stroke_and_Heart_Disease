@@ -42,7 +42,7 @@ preventive measures effectively.
 
 This project uses the following Python libraries:
 
-| *Library*          | *Use*                                      |
+| **Library**        | **Use**                                    |
 |--------------------|--------------------------------------------|
 | `pandas`           | Data manipulation and analysis             |
 | `numpy`            | Numerical computations                     |
