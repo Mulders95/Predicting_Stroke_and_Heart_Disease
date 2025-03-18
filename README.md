@@ -130,8 +130,6 @@ by next week.
 
 For Stroke Prediction: To be determined (work in progress)
 
-For Hypertension Prediction: To be determined (work in progress)
-
 For Heart Disease Prediction: To be determined (work in progress)
 
 # Discussion & Interpretation
