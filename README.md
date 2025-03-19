@@ -82,7 +82,7 @@ variables.
 Several observations were discarded from the dataset. The rationale for
 doing this is as follows:
 
-All observations corresponding to work_type = children were removed from
+1. All observations corresponding to work_type = children were removed from
 the dataset. The rationale for doing this is that there are 687 such
 observations whereas there are only 3 such observations representing
 people with one of the three diseases (stroke, hypertension or heart
@@ -96,13 +96,13 @@ information in this dataset, and since the number of children with the
 diseases of interest is very small it is best to remove of all such
 observations.
 
-The single observation corresponding to Gender = Other was removed from
+2. The single observation corresponding to Gender = Other was removed from
 the dataset. This observation is uninteresting because the person
 corresponding to it does not have any of the three diseases under
 consideration and because by being an ‘orphan observation’ no model will
 be able to classify such a model correctly.
 
-Finally, three different dataframes were created–one each for stroke,
+3. Finally, three different dataframes were created–one each for stroke,
 hypertension, and heart disease. The dataframe for stroke comprised of
 all observations in the original dataframe,once the work_type = children
 observations have been removed, with the additional condition that only
