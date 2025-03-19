@@ -15,8 +15,7 @@ Data Science Institute - Cohort 5 - Team 1 Project
 
 # Business Case Question
 
-What relevant features explain the occurrence of stroke, hypertension
-and heart disease?
+What relevant features explain the occurrence of stroke, and heart disease?
 
 # Business Case
 
@@ -84,7 +83,7 @@ Finally, three different dataframes were created–one each for stroke, hyperten
 
 We have started creating visual depictions of the data for the outcome variables and hope to weave the visuals together into a cohesive whole by next week.
 
-[Dynamic Plot Try](https://github.com/Mulders95/Team_1/blob/main/Stroke_Plots/sunburst_chart_original_data.html)
+[Dynamic Plot Try](https://mulders95.github.io/Team_1/blob/main/Stroke_Plots/sunburst_chart_original_data.html)
 
 # Key Findings & Predictive Power of Features
 
