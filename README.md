@@ -123,16 +123,16 @@ by next week.
 ### Key Findings in Stroke Dataset
 The analysis provides several key insights regarding stroke risk factors:
 
-1. Heart Risk (Heart Disease and/or Hypertension) Are Strongly Associated with Stroke
+1. Heart Risk (Heart Disease and/or Hypertension) Are Associated with Stroke
    - Individuals with heart risk have a significantly higher likelihood of experiencing a stroke.
-   - A Chi-square test (p = 0.000) confirms a strong association between stroke and heart risk using the 5% significance.
+   - A Chi-square test of independence (p = 0.000) confirms a association between stroke and heart risk at the 5% significance level.
 
 2. Age and Glucose Levels Are Significant Predictors
    - Stroke patients tend to be older and have higher average glucose levels.
    - A Mann-Whitney U test indicates that age and glucose levels differ significantly between stroke and non-stroke groups.
 
 3. No Significant Association Between Stroke and Gender, Marital Status, Work Type, Residence Type, and Smoking Status
-   - The Chi-square test results show no statistically significant relationship using the 5% significance, between stroke risk and:
+   - The Chi-square test of independence results show no statistically significant relationship at the 5% significance level, between stroke risk and:
      - Gender (p = 0.338)
      - Marital status (p = 0.9483)
      - Work type (p = 0.1354)
@@ -151,11 +151,11 @@ To explore this further, smoking status categories were restructured and reteste
 
 #### First Reclassification  
 - Formerly smoked and smokes were combined into a single category: Ever Smoked.  
-- The Chi-Square test still yielded an insignificant p-value (p= 0.2628) at the 5% significance level, indicating no association.
+- The Chi-Square test of independence still yielded an insignificant p-value (p= 0.2628) at the 5% significance level, indicating no association.
 
 #### Second Reclassification  
 - Formerly smoked, smokes, and unknown were combined into Ever Smoked (assuming that some former smokers might not disclose their smoking history).  
-- Again, the Chi-Square test produced an insignificant p-value (p= 0.2400) at the 5% significance level, reinforcing the lack of association.  
+- Again, the Chi-Square test of independence produced an insignificant p-value (p= 0.2400) at the 5% significance level, reinforcing the lack of association.  
 
 Regardless of how smoking status is categorized, the dataset consistently shows no statistically significant relationship between stroke and smoking status at the 5% significance level.
 
@@ -165,22 +165,22 @@ The analysis provides several key insights regarding heart disease risk factors:
 
 1. Gender Is Significantly Associated with Heart Disease   
     - The dataset suggests that men have a higher likelihood of developing heart disease compared to women.  
-    - A Chi-square test (p = 0.0000) indicates a strong association between gender and heart disease using the 5% significance.
+    - A Chi-square test of independence (p = 0.0000) indicates an association between gender and heart disease at the 5% significance level.
 
 2. Stroke Risk (Stroke and/or Hypertension) is Significantly Associatied with Heart Disease 
     - Individuals with stoke risk (had a stroke and/or have hypertension) are more likely to have experienced heart disease.  
-    - A Chi-square test (p = 0.000) confirms a significant relationship between stroke risk and heart disease using the 5% significance.  
+    - A Chi-square test of independence (p = 0.000) confirms a significant relationship between stroke risk and heart disease at the 5% significance level.  
 
 3. Work Type is Associatied with Heart Disease 
     - Individuals with specific work types are at higher risk to have experienced heart disease.  
-    - A Chi-square test (p = 0.0019) confirms a relationship between Smoking Status and heart disease using the 5% significance. 
+    - A Chi-square test of independence (p = 0.0019) confirms a relationship between Smoking Status and heart disease at the 5% significance level. 
 
 4. Smoking Status is Associatied with Heart Disease 
     - Individuals who formerly or currently smoke are at higher risk to have experienced heart disease.  
-    - A Chi-square test (p = 0.0065) confirms a relationship between Smoking Status and heart disease using the 5% significance.  
+    - A Chi-square test of independence (p = 0.0065) confirms a relationship between Smoking Status and heart disease at the 5% significance level.  
 
 5. No Significant Association Between Heart Disease and Other Categorical Variables  
-    - The Chi-square test results indicate no statistically significant relationship between heart disease and:  
+    - The Chi-square test of independence results indicate no statistically significant relationship between heart disease and:  
         - Marital status (p = 0.5902)
         - Residence type (p = 1.0)  
 
