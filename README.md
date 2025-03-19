@@ -22,11 +22,11 @@ This project aims to identify the key features that influence the occurrence of 
 
 Using the visualizations we will create, time permitting, we will attempt to develop a predictive model that can predict whether a patient is likely to get stroke, and heart disease based on the input parameters like gender, age, avg_glucose_level, bmi, ever_married, smoking status etc., which could assist the target audience in identifying individuals at high risk and implementing preventive measures effectively. The target audience for this project includes:
 
-Healthcare Providers – Doctors, cardiologists, and medical professionals who can use the predictive model to assess patient risk and implement early interventions.
+1. Healthcare Providers – Doctors, cardiologists, and medical professionals who can use the predictive model to assess patient risk and implement early interventions.
 
-Public Health Officials – Organizations focused on disease prevention and healthcare policy can use insights from the model to develop targeted awareness and prevention programs.
+2. Public Health Officials – Organizations focused on disease prevention and healthcare policy can use insights from the model to develop targeted awareness and prevention programs.
 
-Patients & At-Risk Individuals – People looking to understand their personal risk factors and take proactive steps toward prevention and lifestyle changes.
+3. Patients & At-Risk Individuals – People looking to understand their personal risk factors and take proactive steps toward prevention and lifestyle changes.
 
 
 
