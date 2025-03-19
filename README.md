@@ -83,7 +83,7 @@ Finally, three different dataframes were created–one each for stroke, hyperten
 
 We have started creating visual depictions of the data for the outcome variables and hope to weave the visuals together into a cohesive whole by next week.
 
-[Dynamic Plot Try](https://mulders95.github.io/Team_1/blob/main/Stroke_Plots/sunburst_chart_original_data.html)
+[Dynamic Plot Try](https://mulders95.github.io/Team_1/Stroke_Plots/sunburst_chart_original_data.html)
 
 # Key Findings & Predictive Power of Features
 
