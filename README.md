@@ -116,7 +116,7 @@ We have started creating visual depictions of the data for the outcome variables
 
 [Dynamic Plot Try](https://mulders95.github.io/Team_1/Stroke_Plots/sunburst_chart_original_data.html)
 
-[Stroke Normalized Data](https://mulders95.github.io/Team_1/Stroke_Plots/heart_disease_analysis_Normalized.html)
+[Stroke Normalized Data](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_analysis_normalized.html)
 ## Key Predictors of Stroke  
 A normalized analysis comparing populations relative to each other highlights heart risk, age, and glucose levels as significant stroke predictors. 
 - Heart Risk: Individuals with heart risk have a higher relative stroke occurrence, with 14.56% experiencing a stroke, compared to 5.39% among those without heart risk.  
