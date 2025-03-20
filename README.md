@@ -123,7 +123,6 @@ A normalized analysis comparing populations relative to each other highlights he
 - Age: The 60+ population shows a sixfold higher stroke occurrence (12.06%) than those aged 40-59 (2.11%).  
 - Glucose Levels: Individuals with higher glucose levels (190+ mg/dL) have a greater relative risk of stroke (8.84%) compared to those with lower glucose levels (5.67%).  
 
-These findings emphasize the importance of comparative risk assessment and proactive health management in high-risk groups.
 ### Key Findings in Stroke Dataset
 The analysis provides several key insights regarding stroke risk factors:
 
