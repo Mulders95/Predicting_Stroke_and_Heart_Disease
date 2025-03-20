@@ -56,6 +56,7 @@ environment, some will also be done in an R environment using ggplot.
 *Dataset Source*: [Stroke Prediction
 Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
 
+
 | **Column Name**        | **Description**                                                                                                               | **Datatype**   |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|----------------|
 | `id`                   | A unique identifier of each record.                                                                                           | `int64`        |
@@ -115,6 +116,14 @@ We have started creating visual depictions of the data for the outcome variables
 
 [Dynamic Plot Try](https://mulders95.github.io/Team_1/Stroke_Plots/sunburst_chart_original_data.html)
 
+[Stroke Normalized Data](https://mulders95.github.io/Team_1/Stroke_Plots/heart_disease_analysis_Normalized.html)
+## Key Predictors of Stroke  
+A normalized analysis comparing populations relative to each other highlights heart risk, age, and glucose levels as significant stroke predictors. 
+- Heart Risk: Individuals with heart risk have a higher relative stroke occurrence, with 14.56% experiencing a stroke, compared to 5.39% among those without heart risk.  
+- Age: The 60+ population shows a sixfold higher stroke occurrence (12.06%) than those aged 40-59 (2.11%).  
+- Glucose Levels: Individuals with higher glucose levels (190+ mg/dL) have a greater relative risk of stroke (8.84%) compared to those with lower glucose levels (5.67%).  
+
+These findings emphasize the importance of comparative risk assessment and proactive health management in high-risk groups.
 ### Key Findings in Stroke Dataset
 The analysis provides several key insights regarding stroke risk factors:
 
@@ -182,11 +191,6 @@ The analysis provides several key insights regarding heart disease risk factors:
 6. Age and Glucose Levels Are Significant Predictors
    - Stroke patients tend to be older and have higher average glucose levels.
    - A Mann-Whitney U test indicates that age and glucose levels differ significantly between heart disease and without heart disease groups.
-
-# Discussion & Interpretation
-
-Insights on which groups are most at risk: To be determined (work in
-progress)
 
 ### Biases and Limitations of Predictive Data  
 
