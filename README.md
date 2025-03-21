@@ -124,10 +124,8 @@ A normalized analysis comparing populations relative to each other highlights he
 
 [Heart Disease Data](https://mulders95.github.io/Team_1/Stroke_Plots/heart_disease_data.html)
 
-<img src="images/logo.png" alt="Project Logo" width="450">
+<img src="https://github.com/Mulders95/Team_1/blob/plots_filtered/heart_disease_facet_plot_6vars_p1_new.png" alt="Alt text" style="width: 800px; height: auto;">
 
-
-<img src="https://github.com/Mulders95/Team_1/blob/plots_filtered/heart_disease_facet_plot_6vars_p1_new.png" alt="Alt text" width="200">
 
 ### Key Findings in Stroke Dataset
 The analysis provides several key insights regarding stroke risk factors:
