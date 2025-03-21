@@ -174,7 +174,7 @@ Additionally, gender distribution shifted, with males increasing from 41% to 60%
 
 These refinements ensure a more accurate and representative dataset for further analysis, reducing missing data and improving the integrity of statistical modeling.
 
-<img src="https://github.com/Mulders95/Team_1/blob/plots_filtered/heart_disease_facet_plot_6vars_p1_new.png" alt="Alt text" style="width: 800px; height: auto;">
+<img src="https://github.com/Mulders95/Team_1/blob/plots_filtered/heart_disease_facet_plot_6vars_p1.png" alt="Alt text" style="width: 800px; height: auto;">
 
 
 # Key Findings in Datasets
