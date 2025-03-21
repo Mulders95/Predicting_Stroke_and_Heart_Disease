@@ -130,7 +130,8 @@ The figure above is a normalized analysis comparing populations relative to each
 
 [Click here: Heart Disease Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/heart_disease_data.html)
 
-The figure above compares the heart disease dataset before and after the data cleaning process. Prior to cleaning, the predictor variables were distributed as follows:  
+The figure above compares the heart disease dataset before and after the data cleaning process. In the cleaned dataset, stroke risk is defined as a composite variable that includes a positive marker for hypertension and/or had a stroke. If an individual had either condition, they were classified as having stroke risk. 
+Prior to cleaning, the predictor variables were distributed as follows:  
 
 Before Cleaning  
 - **Smoking Status:**  
