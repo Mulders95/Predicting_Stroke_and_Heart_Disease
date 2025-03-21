@@ -113,6 +113,7 @@ disease dataframes. All three dataframes were then written to .csv files
 # Exploratory Data Analysis
 
 [Click here: Stroke Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_data.html)
+
 The figure above compares the stroke dataset before and after the cleaning process. Prior to cleaning, 4.8% of the population in the dataset had experienced a stroke. After cleaning, this percentage increased to 7.2%, indicating that the data cleaning process made the target variable (stroke occurrence) more prevalent.
 
 In the cleaned dataset, heart risk is defined as a composite variable that includes a positive marker for hypertension and/or heart disease. If an individual had either condition, they were classified as having heart risk. Among those in the cleaned dataset, 20% of individuals with heart risk had experienced a stroke.
@@ -122,8 +123,7 @@ By improving data quality, the cleaned dataset more accurately represents the re
 
 [Click here: Stroke Normalized Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_analysis_normalized.html)
 
-Key Predictors of Stroke  
-A normalized analysis comparing populations relative to each other highlights heart risk, age, and glucose levels as significant stroke predictors. 
+The figure above is a normalized analysis comparing populations relative to each other highlights heart risk, age, and glucose levels as significant stroke predictors. 
 - Heart Risk: Individuals with heart risk have a higher relative stroke occurrence, with 14.56% experiencing a stroke, compared to 5.39% among those without heart risk.  
 - Age: The 60+ population shows a sixfold higher stroke occurrence (12.06%) than those aged 40-59 (2.11%).  
 - Glucose Levels: Individuals with higher glucose levels (190+ mg/dL) have a greater relative risk of stroke (8.84%) compared to those with lower glucose levels (5.67%).  
@@ -168,7 +168,6 @@ Before Cleaning
   - Self-employed = 21%  
   - Private = 62%  
 
-**Impact of Data Cleaning**  
 The cleaning process led to notable shifts in variable distributions, particularly in smoking status, gender, and work type. The percentage of individuals with unknown smoking status decreased significantly from 30% to 19%, improving the dataset’s reliability. The reclassification of heart disease as a composite variable incorporating hypertension and stroke resulted in 8% of the population being categorized under this metric.  
 
 Additionally, gender distribution shifted, with males increasing from 41% to 60% and females decreasing to 40%. The work type distribution saw a rise in self-employed individuals (from 16% to 21%) and government workers (from 13% to 16%), while private-sector representation remained dominant at 62%.  
