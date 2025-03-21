@@ -177,7 +177,8 @@ These refinements ensure a more accurate and representative dataset for further 
 <img src="https://github.com/Mulders95/Team_1/blob/plots_filtered/heart_disease_facet_plot_6vars_p1_new.png" alt="Alt text" style="width: 800px; height: auto;">
 
 
-### Key Findings in Stroke Dataset
+# Key Findings in Datasets
+### Key Findings in Heart Disease Dataset  
 The analysis provides several key insights regarding stroke risk factors:
 
 1. Heart Risk (Heart Disease and/or Hypertension) Are Associated with Stroke
@@ -245,7 +246,7 @@ The analysis provides several key insights regarding heart disease risk factors:
    - Stroke patients tend to be older and have higher average glucose levels.
    - A Mann-Whitney U test indicates that age and glucose levels differ significantly between heart disease and without heart disease groups.
 
-### Biases and Limitations of Predictive Data  
+# Biases and Limitations of Predictive Data  
 
 #### Sampling Bias  
 The dataset comes from a confidential source and is intended only for educational purposes. Since the data collection methods are unknown, we cannot verify whether the dataset was randomly sampled from a diverse and representative population. If the sample is biased or not reflective of the general public, the results may not generalize beyond this dataset.  
