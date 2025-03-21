@@ -1,11 +1,11 @@
 README
 ================
 
-# Predicting Stroke, Hypertension, and Heart Disease: Identifying Key Risk Factors
+# Predicting Stroke, and Heart Disease: Identifying Key Risk Factors
 
 Data Science Institute - Cohort 5 - Team 1 Project
 
-# Members
+## Members
 
 - Marta Zaiats ([mprezlyata](https://github.com/mprezlyata))
 - Ranveer Kaur ([ranvikhalar](https://github.com/ranvikhalar))
@@ -19,7 +19,7 @@ Stroke and heart disease remain leading causes of death and disability worldwide
 ## Business Question
 How can data-driven techniques, including machine learning and data visualization, be utilized to identify key predictors of stroke, hypertension, and heart disease, and how can this knowledge be applied to improve early detection and preventive healthcare measures?
 
-### Project Overview
+## Project Overview
 
 This project aims to identify the key features that influence the occurrence of stroke, hypertension, and heart disease by leveraging data science techniques, particularly data visualization. Our goal is to create high quality visualizations with appropriate complexity for each of the outcome variables to depict their relationship with the features in this dataset.
 
@@ -112,19 +112,73 @@ disease dataframes. All three dataframes were then written to .csv files
 
 # Exploratory Data Analysis
 
-We have started creating visual depictions of the data for the outcome variables and hope to weave the visuals together into a cohesive whole by next week.
+[Click here: Stroke Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_data.html)
 
-[Dynamic Plot Try](https://mulders95.github.io/Team_1/Stroke_Plots/sunburst_chart_original_data.html)
+The figure above compares the stroke dataset before and after the cleaning process. Prior to cleaning, 4.8% of the population in the dataset had experienced a stroke. After cleaning, this percentage increased to 7.2%, indicating that the data cleaning process made the target variable (stroke occurrence) more prevalent.
 
-[Stroke Normalized Data](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_analysis_normalized.html)
-## Key Predictors of Stroke  
-A normalized analysis comparing populations relative to each other highlights heart risk, age, and glucose levels as significant stroke predictors. 
+In the cleaned dataset, heart risk is defined as a composite variable that includes a positive marker for hypertension and/or heart disease. If an individual had either condition, they were classified as having heart risk. Among those in the cleaned dataset, 20% of individuals with heart risk had experienced a stroke.
+
+By improving data quality, the cleaned dataset more accurately represents the relationship between key health factors and stroke occurrence. This refinement enhances the reliability of predictive modeling and statistical analysis, supporting more precise insights into stroke risk factors.
+
+
+[Click here: Stroke Normalized Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_analysis_normalized.html)
+
+The figure above is a normalized analysis comparing populations relative to each other highlights heart risk, age, and glucose levels as significant stroke predictors. 
 - Heart Risk: Individuals with heart risk have a higher relative stroke occurrence, with 14.56% experiencing a stroke, compared to 5.39% among those without heart risk.  
 - Age: The 60+ population shows a sixfold higher stroke occurrence (12.06%) than those aged 40-59 (2.11%).  
 - Glucose Levels: Individuals with higher glucose levels (190+ mg/dL) have a greater relative risk of stroke (8.84%) compared to those with lower glucose levels (5.67%).  
 
-These findings emphasize the importance of comparative risk assessment and proactive health management in high-risk groups.
-### Key Findings in Stroke Dataset
+[Click here: Heart Disease Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/heart_disease_data.html)
+
+The figure above compares the heart disease dataset before and after the data cleaning process. Prior to cleaning, the predictor variables were distributed as follows:  
+
+Before Cleaning  
+- **Smoking Status:**  
+  - Never smoked = 37%  
+  - Unknown = 30%  
+  - Formerly smoked = 17%  
+  - Smokes = 15%  
+
+- **Gender:**  
+  - Male = 41%  
+  - Female = 59%  
+
+- **Work Type:**  
+  - Government job = 13%  
+  - Self-employed = 16%  
+  - Private = 57%  
+  - Children = 13%  
+  - Never worked = 0.4%  
+
+ After Cleaning  
+- **Smoking Status:**  
+  - Never smoked = 40%  
+  - Unknown = 19%  
+  - Formerly smoked = 22%  
+  - Smokes = 18%  
+
+- **Heart Disease (Composite Variable of Hypertension and Stroke, Similar to Heart Risk)** = 8%
+
+- **Gender:**  
+  - Male = 60%  
+  - Female = 40%  
+
+- **Work Type:**  
+  - Government job = 16%  
+  - Self-employed = 21%  
+  - Private = 62%  
+
+The cleaning process led to notable shifts in variable distributions, particularly in smoking status, gender, and work type. The percentage of individuals with unknown smoking status decreased significantly from 30% to 19%, improving the dataset’s reliability. The reclassification of heart disease as a composite variable incorporating hypertension and stroke resulted in 8% of the population being categorized under this metric.  
+
+Additionally, gender distribution shifted, with males increasing from 41% to 60% and females decreasing to 40%. The work type distribution saw a rise in self-employed individuals (from 16% to 21%) and government workers (from 13% to 16%), while private-sector representation remained dominant at 62%.  
+
+These refinements ensure a more accurate and representative dataset for further analysis, reducing missing data and improving the integrity of statistical modeling.
+
+<img src="https://github.com/Mulders95/Team_1/blob/plots_filtered/heart_disease_facet_plot_6vars_p1.png" alt="Alt text" style="width: 800px; height: auto;">
+
+
+# Key Findings in Datasets
+### Key Findings in Heart Disease Dataset  
 The analysis provides several key insights regarding stroke risk factors:
 
 1. Heart Risk (Heart Disease and/or Hypertension) Are Associated with Stroke
@@ -192,7 +246,7 @@ The analysis provides several key insights regarding heart disease risk factors:
    - Stroke patients tend to be older and have higher average glucose levels.
    - A Mann-Whitney U test indicates that age and glucose levels differ significantly between heart disease and without heart disease groups.
 
-### Biases and Limitations of Predictive Data  
+# Biases and Limitations of Predictive Data  
 
 #### Sampling Bias  
 The dataset comes from a confidential source and is intended only for educational purposes. Since the data collection methods are unknown, we cannot verify whether the dataset was randomly sampled from a diverse and representative population. If the sample is biased or not reflective of the general public, the results may not generalize beyond this dataset.  
