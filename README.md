@@ -150,7 +150,7 @@ Before Cleaning
   - Children = 13%  
   - Never worked = 0.4%  
 
- **After Cleaning**  
+ After Cleaning  
 - **Smoking Status:**  
   - Never smoked = 40%  
   - Unknown = 19%  
