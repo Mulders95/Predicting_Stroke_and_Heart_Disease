@@ -133,7 +133,7 @@ A normalized analysis comparing populations relative to each other highlights he
 
 The figure above compares the heart disease dataset before and after the data cleaning process. Prior to cleaning, the predictor variables were distributed as follows:  
 
-## Before Cleaning  
+# Before Cleaning  
 - **Smoking Status:**  
   - Never smoked = 37%  
   - Unknown = 30%  
@@ -151,7 +151,7 @@ The figure above compares the heart disease dataset before and after the data cl
   - Children = 13%  
   - Never worked = 0.4%  
 
-## After Cleaning  
+# After Cleaning  
 - **Smoking Status:**  
   - Never smoked = 40%  
   - Unknown = 19%  
@@ -169,7 +169,7 @@ The figure above compares the heart disease dataset before and after the data cl
   - Self-employed = 21%  
   - Private = 62%  
 
-## Impact of Data Cleaning  
+# Impact of Data Cleaning  
 The cleaning process led to notable shifts in variable distributions, particularly in smoking status, gender, and work type. The percentage of individuals with unknown smoking status decreased significantly from 30% to 19%, improving the dataset’s reliability. The reclassification of heart disease as a composite variable incorporating hypertension and stroke resulted in 8% of the population being categorized under this metric.  
 
 Additionally, gender distribution shifted, with males increasing from 41% to 60% and females decreasing to 40%. The work type distribution saw a rise in self-employed individuals (from 16% to 21%) and government workers (from 13% to 16%), while private-sector representation remained dominant at 62%.  
