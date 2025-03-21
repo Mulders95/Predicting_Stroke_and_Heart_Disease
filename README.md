@@ -112,7 +112,7 @@ disease dataframes. All three dataframes were then written to .csv files
 
 # Exploratory Data Analysis
 
-[Click here: Stroke Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_data.html)
+[Click here: Stroke Data Visulization](https://mulders95.github.io/Team_1/Plots_Used/stroke_data.html)
 
 The figure above compares the stroke dataset before and after the cleaning process. Prior to cleaning, 4.8% of the population in the dataset had experienced a stroke. After cleaning, this percentage increased to 7.2%, indicating that the data cleaning process made the target variable (stroke occurrence) more prevalent.
 
@@ -121,14 +121,14 @@ In the cleaned dataset, heart risk is defined as a composite variable that inclu
 By improving data quality, the cleaned dataset more accurately represents the relationship between key health factors and stroke occurrence. This refinement enhances the reliability of predictive modeling and statistical analysis, supporting more precise insights into stroke risk factors.
 
 
-[Click here: Stroke Normalized Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_analysis_normalized.html)
+[Click here: Stroke Normalized Data Visulization](https://mulders95.github.io/Team_1/Plots_Used/stroke_analysis_normalized.html)
 
 The figure above is a normalized analysis comparing populations relative to each other highlights heart risk, age, and glucose levels as significant stroke predictors. 
 - Heart Risk: Individuals with heart risk have a higher relative stroke occurrence, with 14.56% experiencing a stroke, compared to 5.39% among those without heart risk.  
 - Age: The 60+ population shows a sixfold higher stroke occurrence (12.06%) than those aged 40-59 (2.11%).  
 - Glucose Levels: Individuals with higher glucose levels (190+ mg/dL) have a greater relative risk of stroke (8.84%) compared to those with lower glucose levels (5.67%).  
 
-[Click here: Heart Disease Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/heart_disease_data.html)
+[Click here: Heart Disease Data Visulization](https://mulders95.github.io/Team_1/Plots_Used/heart_disease_data.html)
 
 The figure above compares the heart disease dataset before and after the data cleaning process. In the cleaned dataset, stroke risk is defined as a composite variable that includes a positive marker for hypertension and/or had a stroke. If an individual had either condition, they were classified as having stroke risk. 
 Prior to cleaning, the predictor variables were distributed as follows:  
