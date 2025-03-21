@@ -157,7 +157,7 @@ Before Cleaning
   - Formerly smoked = 22%  
   - Smokes = 18%  
 
-- **Heart Disease (Composite Variable of Hypertension and Stroke, Similar to Heart Risk) = 8%**  
+- **Heart Disease (Composite Variable of Hypertension and Stroke, Similar to Heart Risk)** = 8%
 
 - **Gender:**  
   - Male = 60%  
@@ -173,10 +173,6 @@ The cleaning process led to notable shifts in variable distributions, particular
 Additionally, gender distribution shifted, with males increasing from 41% to 60% and females decreasing to 40%. The work type distribution saw a rise in self-employed individuals (from 16% to 21%) and government workers (from 13% to 16%), while private-sector representation remained dominant at 62%.  
 
 These refinements ensure a more accurate and representative dataset for further analysis, reducing missing data and improving the integrity of statistical modeling.
-
-
-
-
 
 <img src="https://github.com/Mulders95/Team_1/blob/plots_filtered/heart_disease_facet_plot_6vars_p1_new.png" alt="Alt text" style="width: 800px; height: auto;">
 
