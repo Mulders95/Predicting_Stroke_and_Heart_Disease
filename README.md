@@ -1,7 +1,7 @@
 README
 ================
 
-# Predicting Stroke, Hypertension, and Heart Disease: Identifying Key Risk Factors
+# Predicting Stroke, and Heart Disease: Identifying Key Risk Factors
 
 Data Science Institute - Cohort 5 - Team 1 Project
 
