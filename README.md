@@ -5,7 +5,7 @@ README
 
 Data Science Institute - Cohort 5 - Team 1 Project
 
-# Members
+## Members
 
 - Marta Zaiats ([mprezlyata](https://github.com/mprezlyata))
 - Ranveer Kaur ([ranvikhalar](https://github.com/ranvikhalar))
@@ -19,7 +19,7 @@ Stroke and heart disease remain leading causes of death and disability worldwide
 ## Business Question
 How can data-driven techniques, including machine learning and data visualization, be utilized to identify key predictors of stroke, hypertension, and heart disease, and how can this knowledge be applied to improve early detection and preventive healthcare measures?
 
-### Project Overview
+## Project Overview
 
 This project aims to identify the key features that influence the occurrence of stroke, hypertension, and heart disease by leveraging data science techniques, particularly data visualization. Our goal is to create high quality visualizations with appropriate complexity for each of the outcome variables to depict their relationship with the features in this dataset.
 
