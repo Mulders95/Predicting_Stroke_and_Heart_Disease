@@ -112,9 +112,15 @@ disease dataframes. All three dataframes were then written to .csv files
 
 # Exploratory Data Analysis
 
-[Stroke Data](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_data.html)
+[Click here: Stroke Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_data.html)
+The figure above compares the stroke dataset before and after the cleaning process. Prior to cleaning, 4.8% of the population in the dataset had experienced a stroke. After cleaning, this percentage increased to 7.2%, indicating that the data cleaning process made the target variable (stroke occurrence) more prevalent.
 
-[Stroke Normalized Data](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_analysis_normalized.html)
+In the cleaned dataset, heart risk is defined as a composite variable that includes a positive marker for hypertension and/or heart disease. If an individual had either condition, they were classified as having heart risk. Among those in the cleaned dataset, 20% of individuals with heart risk had experienced a stroke.
+
+By improving data quality, the cleaned dataset more accurately represents the relationship between key health factors and stroke occurrence. This refinement enhances the reliability of predictive modeling and statistical analysis, supporting more precise insights into stroke risk factors.
+
+
+[Click here: Stroke Normalized Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_analysis_normalized.html)
 
 Key Predictors of Stroke  
 A normalized analysis comparing populations relative to each other highlights heart risk, age, and glucose levels as significant stroke predictors. 
@@ -122,7 +128,57 @@ A normalized analysis comparing populations relative to each other highlights he
 - Age: The 60+ population shows a sixfold higher stroke occurrence (12.06%) than those aged 40-59 (2.11%).  
 - Glucose Levels: Individuals with higher glucose levels (190+ mg/dL) have a greater relative risk of stroke (8.84%) compared to those with lower glucose levels (5.67%).  
 
-[Heart Disease Data](https://mulders95.github.io/Team_1/Stroke_Plots/heart_disease_data.html)
+[Click here: Heart Disease Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/heart_disease_data.html)
+# Figure Analysis: Heart Disease Dataset Before and After Cleaning  
+
+The figure above compares the heart disease dataset before and after the data cleaning process. Prior to cleaning, the predictor variables were distributed as follows:  
+
+## Before Cleaning  
+- **Smoking Status:**  
+  - Never smoked = 37%  
+  - Unknown = 30%  
+  - Formerly smoked = 17%  
+  - Smokes = 15%  
+
+- **Gender:**  
+  - Male = 41%  
+  - Female = 59%  
+
+- **Work Type:**  
+  - Government job = 13%  
+  - Self-employed = 16%  
+  - Private = 57%  
+  - Children = 13%  
+  - Never worked = 0.4%  
+
+## After Cleaning  
+- **Smoking Status:**  
+  - Never smoked = 40%  
+  - Unknown = 19%  
+  - Formerly smoked = 22%  
+  - Smokes = 18%  
+
+- **Heart Disease (Composite Variable of Hypertension and Stroke, Similar to Heart Risk) = 8%**  
+
+- **Gender:**  
+  - Male = 60%  
+  - Female = 40%  
+
+- **Work Type:**  
+  - Government job = 16%  
+  - Self-employed = 21%  
+  - Private = 62%  
+
+## Impact of Data Cleaning  
+The cleaning process led to notable shifts in variable distributions, particularly in smoking status, gender, and work type. The percentage of individuals with unknown smoking status decreased significantly from 30% to 19%, improving the dataset’s reliability. The reclassification of heart disease as a composite variable incorporating hypertension and stroke resulted in 8% of the population being categorized under this metric.  
+
+Additionally, gender distribution shifted, with males increasing from 41% to 60% and females decreasing to 40%. The work type distribution saw a rise in self-employed individuals (from 16% to 21%) and government workers (from 13% to 16%), while private-sector representation remained dominant at 62%.  
+
+These refinements ensure a more accurate and representative dataset for further analysis, reducing missing data and improving the integrity of statistical modeling.
+
+
+
+
 
 <img src="https://github.com/Mulders95/Team_1/blob/plots_filtered/heart_disease_facet_plot_6vars_p1_new.png" alt="Alt text" style="width: 800px; height: auto;">
 
