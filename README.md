@@ -112,8 +112,6 @@ disease dataframes. All three dataframes were then written to .csv files
 
 # Exploratory Data Analysis
 
-We have started creating visual depictions of the data for the outcome variables and hope to weave the visuals together into a cohesive whole by next week.
-
 [Stroke Data](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_data.html)
 
 [Stroke Normalized Data](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_analysis_normalized.html)
@@ -126,7 +124,7 @@ A normalized analysis comparing populations relative to each other highlights he
 
 [Heart Disease Data](https://mulders95.github.io/Team_1/Stroke_Plots/heart_disease_data.html)
 
-<img src="images/logo.png" alt="Project Logo" width="150">
+<img src="images/logo.png" alt="Project Logo" width="450">
 
 
 <img src="https://github.com/Mulders95/Team_1/blob/plots_filtered/heart_disease_facet_plot_6vars_p1_new.png" alt="Alt text" width="200">
