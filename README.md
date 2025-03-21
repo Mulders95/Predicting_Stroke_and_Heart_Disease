@@ -114,14 +114,22 @@ disease dataframes. All three dataframes were then written to .csv files
 
 We have started creating visual depictions of the data for the outcome variables and hope to weave the visuals together into a cohesive whole by next week.
 
-[Dynamic Plot Try](https://mulders95.github.io/Team_1/Stroke_Plots/sunburst_chart_original_data.html)
+[Stroke Data](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_data.html)
 
 [Stroke Normalized Data](https://mulders95.github.io/Team_1/Stroke_Plots/stroke_analysis_normalized.html)
-## Key Predictors of Stroke  
+
+Key Predictors of Stroke  
 A normalized analysis comparing populations relative to each other highlights heart risk, age, and glucose levels as significant stroke predictors. 
 - Heart Risk: Individuals with heart risk have a higher relative stroke occurrence, with 14.56% experiencing a stroke, compared to 5.39% among those without heart risk.  
 - Age: The 60+ population shows a sixfold higher stroke occurrence (12.06%) than those aged 40-59 (2.11%).  
 - Glucose Levels: Individuals with higher glucose levels (190+ mg/dL) have a greater relative risk of stroke (8.84%) compared to those with lower glucose levels (5.67%).  
+
+[Heart Disease Data](https://mulders95.github.io/Team_1/Stroke_Plots/heart_disease_data.html)
+
+<img src="images/logo.png" alt="Project Logo" width="150">
+
+
+<img src="https://github.com/Mulders95/Team_1/blob/plots_filtered/heart_disease_facet_plot_6vars_p1_new.png" alt="Alt text" width="200">
 
 ### Key Findings in Stroke Dataset
 The analysis provides several key insights regarding stroke risk factors:
