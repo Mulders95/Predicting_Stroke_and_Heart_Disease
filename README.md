@@ -129,8 +129,6 @@ A normalized analysis comparing populations relative to each other highlights he
 - Glucose Levels: Individuals with higher glucose levels (190+ mg/dL) have a greater relative risk of stroke (8.84%) compared to those with lower glucose levels (5.67%).  
 
 [Click here: Heart Disease Data Visulization](https://mulders95.github.io/Team_1/Stroke_Plots/heart_disease_data.html)
-# Figure Analysis: Heart Disease Dataset Before and After Cleaning  
-
 The figure above compares the heart disease dataset before and after the data cleaning process. Prior to cleaning, the predictor variables were distributed as follows:  
 
 # Before Cleaning  
