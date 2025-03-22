@@ -179,7 +179,7 @@ These refinements ensure a more accurate and representative dataset for further 
 The above plot compares six different variables.  The plot indicates that certain job types may have a higher average risk of heart disease than others.  Moreover, the plots continue to show that there is a correlation between age and heart disease.
 
 # Key Findings in Datasets
-### Key Findings in Heart Disease Dataset  
+### Key Findings in Stroke Dataset  
 The analysis provides several key insights regarding stroke risk factors:
 
 1. Heart Risk (Heart Disease and/or Hypertension) Are Associated with Stroke
