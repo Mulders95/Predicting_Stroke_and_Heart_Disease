@@ -116,7 +116,7 @@ disease dataframes. All three dataframes were then written to .csv files
 
 The figure above compares the stroke dataset before and after the cleaning process. Prior to cleaning, 4.8% of the population in the dataset had experienced a stroke. After cleaning, this percentage increased to 7.2%, indicating that the data cleaning process made the target variable (stroke occurrence) more prevalent.
 
-In the cleaned dataset, heart risk is defined as a composite variable that includes a positive marker for hypertension and/or heart disease. If an individual had either condition, they were classified as having heart risk. Among those in the cleaned dataset, 20% of individuals with heart risk had experienced a stroke.
+In the cleaned dataset, heart risk is defined as a composite variable that includes a positive marker for hypertension or heart disease. If an individual had either condition, they were classified as having heart risk. Among those in the cleaned dataset, 20% of individuals with heart risk had experienced a stroke.
 
 By improving data quality, the cleaned dataset more accurately represents the relationship between key health factors and stroke occurrence. This refinement enhances the reliability of predictive modeling and statistical analysis, supporting more precise insights into stroke risk factors.
 
@@ -130,7 +130,7 @@ The figure above is a normalized analysis comparing populations relative to each
 
 [Click here: Heart Disease Data Visulization](https://mulders95.github.io/Team_1/Plots_Used/heart_disease_data.html)
 
-The figure above compares the heart disease dataset before and after the data cleaning process. In the cleaned dataset, stroke risk is defined as a composite variable that includes a positive marker for hypertension and/or had a stroke. If an individual had either condition, they were classified as having stroke risk. 
+The figure above compares the heart disease dataset before and after the data cleaning process. In the cleaned dataset, stroke risk is defined as a composite variable that includes a positive marker for hypertension or had a stroke. If an individual had either condition, they were classified as having stroke risk. 
 Prior to cleaning, the predictor variables were distributed as follows:  
 
 Before Cleaning  
@@ -182,7 +182,7 @@ The above plot compares six different variables.  The plot indicates that certai
 ### Key Findings in Stroke Dataset  
 The analysis provides several key insights regarding stroke risk factors:
 
-1. Heart Risk (Heart Disease and/or Hypertension) Are Associated with Stroke
+1. Heart Risk (Heart Disease or Hypertension) Are Associated with Stroke
    - Individuals with heart risk have a significantly higher likelihood of experiencing a stroke.
    - A Chi-square test of independence (p = 0.000) confirms a association between stroke and heart risk at the 5% significance level.
 
@@ -226,8 +226,8 @@ The analysis provides several key insights regarding heart disease risk factors:
     - The dataset suggests that men have a higher likelihood of developing heart disease compared to women.  
     - A Chi-square test of independence (p = 0.0000) indicates an association between gender and heart disease at the 5% significance level.
 
-2. Stroke Risk (Stroke and/or Hypertension) is Significantly Associatied with Heart Disease 
-    - Individuals with stoke risk (had a stroke and/or have hypertension) are more likely to have experienced heart disease.  
+2. Stroke Risk (Stroke or Hypertension) is Significantly Associatied with Heart Disease 
+    - Individuals with stoke risk (had a stroke or have hypertension) are more likely to have experienced heart disease.  
     - A Chi-square test of independence (p = 0.000) confirms a significant relationship between stroke risk and heart disease at the 5% significance level.  
 
 3. Work Type is Associatied with Heart Disease 
