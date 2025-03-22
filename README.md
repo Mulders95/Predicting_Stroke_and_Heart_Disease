@@ -72,6 +72,14 @@ Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
 | `stroke`               | A binary indicator (0 or 1) representing whether the patient has experienced a stroke.                                        | `int64`        |
 | `smoking_status`       | The smoking status of the patient ('formerly smoked', 'never smoked', 'smokes', 'Unknown').                                   | `object`       |
 
+Additional columns that we have created for the analysis are heart risk and stroke risk. 
+
+**Heart Risk** - It implies the risk of stroke given either heart disease or hypertension.
+**Stroke Risk** -  It implies the risk of heart disease given either stroke of hypertension.
+
+| `heart_risk`          | A binary indicator (0 or 1) representing whether the patient has hypertension or heart disease.                                | `int64`        |
+| `stroke_risk`         | A binary indicator (0 or 1) representing whether the patient has stroke or hypertension.                                       | `int64`        |
+
 # Data Cleaning and Handling Missing Values
 
 The ‘id’ column has no impact on any of the three outcome variables and was consequently dropped from the datast. Summary statistics for the three numerical variables (age, avg_glucose_level, and bmi) were generated. The nominal variables in this dataset incude the three outcome variables, stroke, heart_disease, and hypertension; and also the predictors used to study the outcome variables (gender, ever_married, work_type, Residence_type, and smoking_status). The three nominal outcome variable are of int64 type with possible values 0 and 1 and were left as is. The predictor nominal variables were all transformed to category type variable. Frequency counts for each category was generated for all the nominal variables,both the predictors as well as the outcomes. All the predictor nominal variables were encoded appropriately using the label encoder method.
@@ -180,7 +188,7 @@ The above plot compares six different variables.  The plot indicates that certai
 
 # Key Findings in Datasets
 ### Key Findings in Stroke Dataset  
-The analysis provides several key insights regarding stroke risk factors:
+The analysis provides several key insights regarding stroke factors:
 
 1. Heart Risk (Heart Disease or Hypertension) Are Associated with Stroke
    - Individuals with heart risk have a significantly higher likelihood of experiencing a stroke.
@@ -191,12 +199,20 @@ The analysis provides several key insights regarding stroke risk factors:
    - A Mann-Whitney U test indicates that age and glucose levels differ significantly between stroke and non-stroke groups.
 
 3. No Significant Association Between Stroke and Gender, Marital Status, Work Type, Residence Type, and Smoking Status
-   - The Chi-square test of independence results show no statistically significant relationship at the 5% significance level, between stroke risk and:
+   - The Chi-square test of independence results show no statistically significant relationship at the 5% significance level, between stroke and:
      - Gender (p = 0.338)
      - Marital status (p = 0.9483)
      - Work type (p = 0.1354)
      - Residence type (p = 0.2686)
      - Smoking status (p = 0.2400)
+
+### Venn Diagram
+<img src="https://github.com/Mulders95/Team_1/blob/main/Plots_Used/venn_diagram_stroke_heartrisk.png" alt="Alt text" style="width: 800px; height: auto;">
+
+The findings from the venn diagram:
+The total patients are 247 who have a history of stroke, regardless of whether they also have heart risk factors (hypertension or heart disease).
+There are 647 patients with heart risk, which includes individuals with hypertension or heart disease, regardless of whether they have experienced a stroke.
+The 100 patients in the intersection highlights the co-occurrence of stroke and heart risk. These are patients who have a history of both stroke and (heart disease or hypertension), meaning they are at a higher risk for further complications. These patients are likely to require targeted interventions or preventive measures due to the compounded health risks.
 
 ### Association Between Stroke and Smoking Status
 A key question in the analysis is whether there is any association between stroke and smoking status. The Chi-Square test of independence indicates no significant association based on the current smoking status categories:
@@ -220,7 +236,7 @@ Regardless of how smoking status is categorized, the dataset consistently shows 
 
 ---
 ### Key Findings in Heart Disease Dataset  
-The analysis provides several key insights regarding heart disease risk factors:  
+The analysis provides several key insights regarding heart disease factors:  
 
 1. Gender Is Significantly Associated with Heart Disease   
     - The dataset suggests that men have a higher likelihood of developing heart disease compared to women.  
@@ -246,6 +262,14 @@ The analysis provides several key insights regarding heart disease risk factors:
 6. Age and Glucose Levels Are Significant Predictors
    - Stroke patients tend to be older and have higher average glucose levels.
    - A Mann-Whitney U test indicates that age and glucose levels differ significantly between heart disease and without heart disease groups.
+
+### Venn Diagram
+<img src="https://github.com/Mulders95/Team_1/blob/main/Plots_Used/venn_diagram_heartdisease_strokerisk.png" alt="Alt text" style="width: 800px; height: auto;">
+
+The findings from the venn diagram:
+The total patients are 275 who have a history of heart disease, regardless of whether they also have stroke risk factors (hypertension or heart disease).
+There are 656 patients with heart risk, which includes individuals with hypertension or stroke, regardless of whether they have experienced a heart disease.
+The 98 patients in the intersection highlights the co-occurrence of heart disease and stroke risk. These are patients who have a history of both heart disease and (stroke or hypertension), which places them at an elevated risk for additional complications. Again, these patients are likely to require targeted interventions or preventive measures due to the compounded health risks.
 
 # Biases and Limitations of Predictive Data  
 
