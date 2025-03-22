@@ -212,9 +212,12 @@ The analysis provides several key insights regarding stroke factors:
 ### Venn Diagram
 <img src="https://github.com/Mulders95/Team_1/blob/main/Plots_Used/venn_diagram_stroke_heartrisk.png" alt="Alt text" style="width: 800px; height: auto;">
 
-The findings from the venn diagram:
-The total patients are 247 who have a history of stroke, regardless of whether they also have heart risk factors (hypertension or heart disease).
-There are 647 patients with heart risk, which includes individuals with hypertension or heart disease, regardless of whether they have experienced a stroke.
+The findings from the venn diagram:  
+
+The total patients are 247 who have a history of stroke, regardless of whether they also have heart risk factors (hypertension or heart disease).  
+
+There are 647 patients with heart risk, which includes individuals with hypertension or heart disease, regardless of whether they have experienced a stroke.  
+
 The 100 patients in the intersection highlights the co-occurrence of stroke and heart risk. These are patients who have a history of both stroke and (heart disease or hypertension), meaning they are at a higher risk for further complications. These patients are likely to require targeted interventions or preventive measures due to the compounded health risks.
 
 ### Association Between Stroke and Smoking Status
@@ -269,9 +272,12 @@ The analysis provides several key insights regarding heart disease factors:
 ### Venn Diagram
 <img src="https://github.com/Mulders95/Team_1/blob/main/Plots_Used/venn_diagram_heartdisease_strokerisk.png" alt="Alt text" style="width: 800px; height: auto;">
 
-The findings from the venn diagram:
-The total patients are 275 who have a history of heart disease, regardless of whether they also have stroke risk factors (hypertension or heart disease).
-There are 656 patients with heart risk, which includes individuals with hypertension or stroke, regardless of whether they have experienced a heart disease.
+The findings from the venn diagram:  
+
+The total patients are 275 who have a history of heart disease, regardless of whether they also have stroke risk factors (hypertension or heart disease).  
+
+There are 656 patients with heart risk, which includes individuals with hypertension or stroke, regardless of whether they have experienced a heart disease.  
+
 The 98 patients in the intersection highlights the co-occurrence of heart disease and stroke risk. These are patients who have a history of both heart disease and (stroke or hypertension), which places them at an elevated risk for additional complications. Again, these patients are likely to require targeted interventions or preventive measures due to the compounded health risks.
 
 # Biases and Limitations of Predictive Data  
