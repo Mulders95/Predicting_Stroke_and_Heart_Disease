@@ -74,9 +74,12 @@ Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
 
 Additional columns that we have created for the analysis are heart risk and stroke risk. 
 
-**Heart Risk** - It implies the risk of stroke given either heart disease or hypertension.
+**Heart Risk** - It implies the risk of stroke given either heart disease or hypertension.  
+
 **Stroke Risk** -  It implies the risk of heart disease given either stroke of hypertension.
 
+| **Column Name**        | **Description**                                                                                                               | **Datatype**   |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------------|----------------|
 | `heart_risk`          | A binary indicator (0 or 1) representing whether the patient has hypertension or heart disease.                                | `int64`        |
 | `stroke_risk`         | A binary indicator (0 or 1) representing whether the patient has stroke or hypertension.                                       | `int64`        |
 
