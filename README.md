@@ -212,7 +212,7 @@ The analysis provides several key insights regarding stroke factors:
 ### Venn Diagram
 <img src="https://github.com/Mulders95/Team_1/blob/main/Plots_Used/venn_diagram_stroke_heartrisk.png" alt="Alt text" style="width: 800px; height: auto;">
 
-The findings from the venn diagram:  
+### Venn Diagram Findings:   
 
 The total patients are 247 who have a history of stroke, regardless of whether they also have heart risk factors (hypertension or heart disease).  
 
@@ -272,7 +272,7 @@ The analysis provides several key insights regarding heart disease factors:
 ### Venn Diagram
 <img src="https://github.com/Mulders95/Team_1/blob/main/Plots_Used/venn_diagram_heartdisease_strokerisk.png" alt="Alt text" style="width: 800px; height: auto;">
 
-The findings from the venn diagram:  
+### Venn Diagram Findings:  
 
 The total patients are 275 who have a history of heart disease, regardless of whether they also have stroke risk factors (hypertension or heart disease).  
 
