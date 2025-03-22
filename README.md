@@ -76,7 +76,7 @@ Additional columns that we have created for the analysis are heart risk and stro
 
 **Heart Risk** - It implies the risk of stroke given either heart disease or hypertension.  
 
-**Stroke Risk** -  It implies the risk of heart disease given either stroke of hypertension.
+**Stroke Risk** -  It implies the risk of heart disease given either stroke or hypertension.
 
 | **Column Name**        | **Description**                                                                                                               | **Datatype**   |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|----------------|
