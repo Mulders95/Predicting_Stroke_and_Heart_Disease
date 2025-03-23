@@ -421,8 +421,8 @@ factors:
 
     - The Chi-square test of independence results indicate no
       statistically significant relationship between heart disease and:
-      - Marital status (p = 0.5902)
-      - Residence type (p = 1.0, Cramer’s V = 0.009)
+      - Marital status (p = 0.5902, Cramer’s V = 0.009)
+      - Residence type (p = 1.0, Cramer’s V = 0.0)
 
 6.  Age and Glucose Levels Are Significant Predictors
 
