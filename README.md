@@ -421,13 +421,8 @@ factors:
 
     - The Chi-square test of independence results indicate no
       statistically significant relationship between heart disease and:
-<<<<<<< HEAD
       - Marital status (p = 0.5902, Cramer’s V = 0.009)
       - Residence type (p = 1.0, Cramer’s V = 0.0)
-=======
-      - Marital status (p = 0.5902)
-      - Residence type (p = 1.0, Cramer’s V = 0.009)
->>>>>>> cc29679f6ad9ab1d64745c692e0c232d5636075b
 
 6.  Age and Glucose Levels Are Significant Predictors
 
@@ -441,12 +436,7 @@ factors:
 ![](README_files/figure-gfm/heart_disease_venn-1.png)<!-- --> ![Heart
 Disease
 plot](https://github.com/Mulders95/Team_1/blob/main/Plots_Used/heart_disease_venn.png)
-<<<<<<< HEAD
 \### Venn Diagram Findings:
-=======
-
-### Venn Diagram Findings:
->>>>>>> cc29679f6ad9ab1d64745c692e0c232d5636075b
 
 There are 275 patients in this dataset who have a history of heart
 disease, regardless of whether they also have stroke risk factors
