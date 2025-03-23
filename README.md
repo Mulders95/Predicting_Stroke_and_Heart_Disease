@@ -324,7 +324,8 @@ The analysis provides several key insights regarding stroke factors:
       - Residence type (p = 0.2686, Cramer’s V = 0.019)
       - Smoking status (p = 0.2400, Cramer’s V = 0.038)
 
-![](README_files/figure-gfm/stroke_venn-1.png)<!-- -->
+![](README_files/figure-gfm/stroke_venn-1.png)<!-- --> ![Stroke Venn
+plot](https://github.com/Mulders95/Team_1/blob/main/Plots_Used/stroke_venn.png)
 
 ### Venn Diagram Findings:
 
