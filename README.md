@@ -433,9 +433,10 @@ factors:
       significant relationship exists between BMI and heart disease
       status (p = 0.729).
 
-![](README_files/figure-gfm/heart_disease_venn-1.png)<!-- -->
-
-### Venn Diagram Findings:
+![](README_files/figure-gfm/heart_disease_venn-1.png)<!-- --> ![Heart
+Disease
+plot](https://github.com/Mulders95/Team_1/blob/main/Plots_Used/heart_disease_venn.png)
+\### Venn Diagram Findings:
 
 There are 275 patients in this dataset who have a history of heart
 disease, regardless of whether they also have stroke risk factors
