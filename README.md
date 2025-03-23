@@ -283,7 +283,8 @@ These refinements ensure a more accurate and representative dataset for
 further analysis, reducing missing data and improving the integrity of
 statistical modeling.
 
-![](README_files/figure-gfm/facet_plot-1.png)<!-- -->
+![](README_files/figure-gfm/facet_plot-1.png)<!-- --> ![Facet
+plot](https://github.com/Mulders95/Team_1/blob/main/Plots_Used/heart_disease_facet_plot_6vars_p1.png)
 
 The above plot compares six different variables. The plot indicates that
 certain job types may have a higher average risk of heart disease than
