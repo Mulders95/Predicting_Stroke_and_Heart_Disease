@@ -183,7 +183,7 @@ doing this is as follows:
 # Exploratory Data Analysis
 
 [Click here: Stroke Data
-Visualization](https://mulders95.github.io/Team_1/Plots_Used/stroke_data.html)
+Visualization](https://mulders95.github.io/Predicting_Stroke_and_Heart_Disease/Plots_Used/stroke_data.html)
 
 The figure above compares the stroke dataset before and after the
 cleaning process. Prior to cleaning, 4.8% of the population in the
@@ -204,7 +204,7 @@ modeling and statistical analysis, supporting more precise insights into
 stroke risk factors.
 
 [Click here: Stroke Normalized Data
-Visulization](https://mulders95.github.io/Team_1/Plots_Used/stroke_analysis_normalized.html)
+Visulization](https://mulders95.github.io/Predicting_Stroke_and_Heart_Disease/Plots_Used/stroke_analysis_normalized.html)
 
 The figure above is a normalized analysis comparing populations relative
 to each other highlights heart risk, age, and glucose levels as
@@ -218,7 +218,7 @@ have a greater relative risk of stroke (8.84%) compared to those with
 lower glucose levels (5.67%).
 
 [Click here: Heart Disease Data
-Visulization](https://mulders95.github.io/Team_1/Plots_Used/heart_disease_data.html)
+Visulization](https://mulders95.github.io/Predicting_Stroke_and_Heart_Disease/Plots_Used/heart_disease_data.html)
 
 The figure above compares the heart disease dataset before and after the
 data cleaning process. In the cleaned dataset, stroke risk is defined as
@@ -284,7 +284,7 @@ further analysis, reducing missing data and improving the integrity of
 statistical modeling.
 
 ![](README_files/figure-gfm/facet_plot-1.png)<!-- --> ![Facet
-plot](https://github.com/Mulders95/Team_1/blob/main/Plots_Used/heart_disease_facet_plot_6vars_p1.png)
+plot](https://github.com/Mulders95/Predicting_Stroke_and_Heart_Disease/blob/main/Plots_Used/heart_disease_facet_plot_6vars_p1.png)
 
 The above plot compares six different variables. The plot indicates that
 certain job types may have a higher average risk of heart disease than
@@ -325,7 +325,7 @@ The analysis provides several key insights regarding stroke factors:
       - Smoking status (p = 0.2400, Cramer’s V = 0.038)
 
 ![](README_files/figure-gfm/stroke_venn-1.png)<!-- --> ![Stroke Venn
-plot](https://github.com/Mulders95/Team_1/blob/main/Plots_Used/stroke_venn.png)
+plot](https://github.com/Mulders95/Predicting_Stroke_and_Heart_Disease/blob/main/Plots_Used/stroke_venn.png)
 
 ### Venn Diagram Findings:
 
@@ -435,7 +435,7 @@ factors:
 
 ![](README_files/figure-gfm/heart_disease_venn-1.png)<!-- --> ![Heart
 Disease
-plot](https://github.com/Mulders95/Team_1/blob/main/Plots_Used/heart_disease_venn.png)
+plot](https://github.com/Mulders95/Predicting_Stroke_and_Heart_Disease/blob/main/Plots_Used/heart_disease_venn.png)
 
 ### Venn Diagram Findings:
 
